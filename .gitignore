@@ -1,32 +1,28 @@
-# Prerequisites
-*.d
+## Visual Studio artifacts ##
+[Bb]in/
+[Oo]bj/
+x64/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.pdb
+*.ilk
+*.cache
+*.user
+*.suo
+*.opensdf
+*.sdf
+ipch/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+## Compilation outputs ##
 *.obj
-
-# Precompiled Headers
-*.gch
+*.tlog
+*.log
+*.idb
 *.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
+*.lib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+## Other ##
+packages/
+.vs/
